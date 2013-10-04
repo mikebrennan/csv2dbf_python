@@ -3,8 +3,9 @@ csv2dbf_python
 
 Creates a legacy dbf file from csv files using python dbf lib
 
-this script converts CSV files to DBF
-requirements:
+This script converts CSV files to DBF
+
+R:equirements:
     Header.csv - this contains the DBF definition (required names ==> FIELDNAME,TYPE,LENGTH)
                  1 FIELDNAME,TYPE,LENGTH
                  2 STAFF,N,10
