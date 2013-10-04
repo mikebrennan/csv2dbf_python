@@ -5,7 +5,7 @@ Creates a legacy dbf file from csv files using python dbf lib
 
 This script converts CSV files to DBF
 
-R:equirements:
+    Requirements:
     Header.csv - this contains the DBF definition (required names ==> FIELDNAME,TYPE,LENGTH)
                  1 FIELDNAME,TYPE,LENGTH
                  2 STAFF,N,10
@@ -22,4 +22,4 @@ R:equirements:
     dbfpy directory - This contains the library for dbf apis.  this directory needs to be in the same directory as this script.
                       Downloaded from : http://dbfpy.sourceforge.net/
 
-Note: I have not tested this with DBF TYPE 'L' TRUE/FALSE.
+    Note: I have not tested this with DBF TYPE 'L' TRUE/FALSE.
