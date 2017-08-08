@@ -3,7 +3,7 @@
 """
 csv2dbf.py
 
-this script coverts CSV files to DBF
+this script converts CSV files to DBF
 requirements:
     Header.csv - this contains the DBF definition (required names ==> FIELDNAME,TYPE,LENGTH)
                  1 FIELDNAME,TYPE,LENGTH
